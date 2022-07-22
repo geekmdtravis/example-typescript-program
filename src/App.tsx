@@ -35,22 +35,27 @@ export default () => {
   );
 };
 
-function validateGetUser(res: CclReturnData<User>): {
+type ValidationError = {
   error: boolean;
   msg?: string;
-} {
-  console.log(res.META);
+};
+
+const makeValidationError = (msg: string): ValidationError => ({
+  error: true,
+  msg,
+});
+
+function validateGetUser(res: CclReturnData<User>): ValidationError {
   if (!res.DATA) {
-    return { error: true, msg: "no valid data was found for the user" };
+    return makeValidationError("no valid data was found for the user");
   }
   if (res.DATA.length === 0) {
-    return { error: true, msg: "there was no data for the user" };
+    return makeValidationError("there was no data for the user");
   }
   if (res.DATA.length > 1) {
-    return {
-      error: true,
-      msg: "more than one user was found; was expecting only one",
-    };
+    return makeValidationError(
+      "more than one user was found; was expecting only one"
+    );
   }
   return { error: false };
 }
