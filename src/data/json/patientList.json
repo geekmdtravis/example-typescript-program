@@ -1,0 +1,122 @@
+{
+  "META": [
+    {
+      "CODE": 0,
+      "MSG": "SUCCESS",
+      "DATE": "2022-06-06T10:53:33",
+      "NAME": "Lara, Daniel P&S",
+      "POSITION": "DBA",
+      "PARAMETERS": "MINE"
+    }
+  ],
+  "DATA": [
+    {
+      "PROVIDER_PID": 123456,
+      "PID": 1,
+      "NAME": "Wayne, Bruce",
+      "CDCR": "TST001",
+      "EIDS": [
+        {
+          "EID": 1,
+          "TYPE": "INPATIENT",
+          "INST": "COR",
+          "REG_DT_TM": "2022-01-07T10:53:33"
+        },
+        {
+          "EID": 2,
+          "TYPE": "INPATIENT",
+          "INST": "SAC",
+          "REG_DT_TM": "2021-02-11T09:31:11"
+        }
+      ],
+      "NEW_TO_PANEL": 0
+    },
+    {
+      "PROVIDER_PID": 654321,
+      "PID": 2,
+      "NAME": "Napier, Jack",
+      "CDCR": "TST002",
+      "EIDS": [
+        {
+          "EID": 3,
+          "TYPE": "INPATIENT",
+          "INST": "COR",
+          "REG_DT_TM": "2022-01-05T09:51:01"
+        }
+      ],
+      "NEW_TO_PANEL": 1
+    },
+    {
+      "PROVIDER_PID": 123456,
+      "PID": 3,
+      "NAME": "Wayne, Bruce",
+      "CDCR": "TST003",
+      "EIDS": [
+        {
+          "EID": 4,
+          "TYPE": "INPATIENT",
+          "INST": "COR",
+          "REG_DT_TM": "2022-01-07T10:53:33"
+        },
+        {
+          "EID": 5,
+          "TYPE": "INPATIENT",
+          "INST": "SAC",
+          "REG_DT_TM": "2021-02-11T09:31:11"
+        }
+      ],
+      "NEW_TO_PANEL": 0
+    },
+    {
+      "PROVIDER_PID": 654321,
+      "PID": 4,
+      "NAME": "Napier, Jack",
+      "CDCR": "TST004",
+      "EIDS": [
+        {
+          "EID": 6,
+          "TYPE": "INPATIENT",
+          "INST": "COR",
+          "REG_DT_TM": "2022-01-05T09:51:01"
+        }
+      ],
+      "NEW_TO_PANEL": 1
+    },
+    {
+      "PROVIDER_PID": 123456,
+      "PID": 5,
+      "NAME": "Wayne, Bruce",
+      "CDCR": "TST005",
+      "EIDS": [
+        {
+          "EID": 7,
+          "TYPE": "INPATIENT",
+          "INST": "COR",
+          "REG_DT_TM": "2022-01-07T10:53:33"
+        },
+        {
+          "EID": 8,
+          "TYPE": "INPATIENT",
+          "INST": "SAC",
+          "REG_DT_TM": "2021-02-11T09:31:11"
+        }
+      ],
+      "NEW_TO_PANEL": 0
+    },
+    {
+      "PROVIDER_PID": 654321,
+      "PID": 6,
+      "NAME": "Napier, Jack",
+      "CDCR": "TST006",
+      "EIDS": [
+        {
+          "EID": 9,
+          "TYPE": "INPATIENT",
+          "INST": "COR",
+          "REG_DT_TM": "2022-01-05T09:51:01"
+        }
+      ],
+      "NEW_TO_PANEL": 1
+    }
+  ]
+}

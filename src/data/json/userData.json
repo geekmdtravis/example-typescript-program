@@ -1,0 +1,20 @@
+{
+  "META": [
+    {
+      "CODE": 0,
+      "MSG": "SUCCESS",
+      "DATE": "2022-06-06T10:52:33",
+      "NAME": "Lara, Daniel P&S",
+      "POSITION": "DBA",
+      "PARAMETERS": "MINE"
+    }
+  ],
+  "DATA": [
+    {
+      "NAME": "Lara, Daniel P&S",
+      "POSITION": "DBA",
+      "PHYSICIAN": "Yes",
+      "PID": 654321
+    }
+  ]
+}

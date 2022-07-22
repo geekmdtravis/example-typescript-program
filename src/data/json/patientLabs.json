@@ -1,0 +1,194 @@
+{
+  "META": [
+    {
+      "CODE": 0,
+      "MSG": "SUCCESS",
+      "DATE": "2022-06-06T10:54:33",
+      "NAME": "Lara, Daniel P&S",
+      "POSITION": "DBA",
+      "PARAMETERS": "MINE"
+    }
+  ],
+  "DATA": [
+    {
+      "PID": 1,
+      "LAB": "Creatinine",
+      "DATE": "2021-12-29T11:10:00",
+      "RESULT": "1.0",
+      "UNIT": "mg/dL",
+      "REF_RANGE": "< 1.3",
+      "FLAG": "NORMAL"
+    },
+    {
+      "PID": 2,
+      "LAB": "AST",
+      "DATE": "2021-12-29T11:10:00",
+      "RESULT": "21",
+      "UNIT": "Units/L",
+      "REF_RANGE": "<50",
+      "FLAG": "NORMAL"
+    },
+    {
+      "PID": 3,
+      "LAB": "Sodium Lvl",
+      "DATE": "2021-12-29T11:10:00",
+      "RESULT": "150",
+      "UNIT": "mg/dL",
+      "REF_RANGE": "135-144",
+      "FLAG": "HIGH"
+    },
+    {
+      "PID": 4,
+      "LAB": "GFR non-AA",
+      "DATE": "2021-12-29T11:10:00",
+      "RESULT": "72",
+      "UNIT": "mL/min",
+      "REF_RANGE": ">90",
+      "FLAG": "LOW"
+    },
+    {
+      "PID": 5,
+      "LAB": "Bili Total",
+      "DATE": "2021-12-29T11:10:00",
+      "RESULT": "1.0",
+      "UNIT": "U",
+      "REF_RANGE": "30-50",
+      "FLAG": "HIGH"
+    },
+    {
+      "PID": 6,
+      "LAB": "CO2",
+      "DATE": "2021-12-29T11:10:00",
+      "RESULT": "30",
+      "UNIT": "U",
+      "REF_RANGE": "30-50",
+      "FLAG": "HIGH"
+    },
+    {
+      "PID": 1,
+      "LAB": "ALT",
+      "DATE": "2021-12-29T11:10:00",
+      "RESULT": "22",
+      "UNIT": "U",
+      "REF_RANGE": "30-50",
+      "FLAG": "HIGH"
+    },
+    {
+      "PID": 2,
+      "LAB": "Globulin Lvl",
+      "DATE": "2021-12-29T11:10:00",
+      "RESULT": "3.0",
+      "UNIT": "U",
+      "REF_RANGE": "30-50",
+      "FLAG": "HIGH"
+    },
+    {
+      "PID": 3,
+      "LAB": "Albumin Lvl",
+      "DATE": "2021-12-29T11:10:00",
+      "RESULT": "4.0",
+      "UNIT": "U",
+      "REF_RANGE": "30-50",
+      "FLAG": "HIGH"
+    },
+    {
+      "PID": 1,
+      "LAB": "Total Protein",
+      "DATE": "2021-12-29T11:10:00",
+      "RESULT": "7.0",
+      "UNIT": "U",
+      "REF_RANGE": "30-50",
+      "FLAG": "HIGH"
+    },
+    {
+      "PID": 2,
+      "LAB": "Alk Phos",
+      "DATE": "2021-12-29T11:10:00",
+      "RESULT": "100",
+      "UNIT": "U",
+      "REF_RANGE": "30-50",
+      "FLAG": "HIGH"
+    },
+    {
+      "PID": 1,
+      "LAB": "Chloride",
+      "DATE": "2021-12-29T11:10:00",
+      "RESULT": "100",
+      "UNIT": "U",
+      "REF_RANGE": "30-50",
+      "FLAG": "HIGH"
+    },
+    {
+      "PID": 2,
+      "LAB": "BUN/Creat Ratio",
+      "DATE": "2021-12-29T11:10:00",
+      "RESULT": "NOT APPLICABLE",
+      "UNIT": "U",
+      "REF_RANGE": "30-50",
+      "FLAG": "HIGH"
+    },
+    {
+      "PID": 3,
+      "LAB": "Calcium Lvl",
+      "DATE": "2021-12-29T11:10:00",
+      "RESULT": "9.0",
+      "UNIT": "U",
+      "REF_RANGE": "30-50",
+      "FLAG": "HIGH"
+    },
+    {
+      "PID": 4,
+      "LAB": "Alb/Glob Ratio",
+      "DATE": "2021-12-29T11:10:00",
+      "RESULT": "1.3",
+      "UNIT": "U",
+      "REF_RANGE": "30-50",
+      "FLAG": "HIGH"
+    },
+    {
+      "PID": 5,
+      "LAB": "GFR AA",
+      "DATE": "2021-12-29T11:10:00",
+      "RESULT": "84",
+      "UNIT": "U",
+      "REF_RANGE": "30-50",
+      "FLAG": "HIGH"
+    },
+    {
+      "PID": 1,
+      "LAB": "Ur Creat",
+      "DATE": "2022-02-07T09:10:09",
+      "RESULT": "66",
+      "UNIT": "U",
+      "REF_RANGE": "30-50",
+      "FLAG": "HIGH"
+    },
+    {
+      "PID": 1,
+      "LAB": "Potassium Level",
+      "DATE": "2021-12-29T11:10:00",
+      "RESULT": "4.0",
+      "UNIT": "U",
+      "REF_RANGE": "30-50",
+      "FLAG": "HIGH"
+    },
+    {
+      "PID": 2,
+      "LAB": "Glucose Level",
+      "DATE": "2021-12-29T11:10:00",
+      "RESULT": "80",
+      "UNIT": "U",
+      "REF_RANGE": "30-50",
+      "FLAG": "HIGH"
+    },
+    {
+      "PID": 3,
+      "LAB": "Urea Nitrogen",
+      "DATE": "2021-12-29T11:10:00",
+      "RESULT": "10",
+      "UNIT": "U",
+      "REF_RANGE": "30-50",
+      "FLAG": "HIGH"
+    }
+  ]
+}
