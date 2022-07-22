@@ -10,7 +10,7 @@ export default () => {
     setLoading(true);
     getUserData(1)
       .then((res) => {
-        const { error, msg } = getUserDataHasError(res);
+        const { error, msg } = validateGetUser(res);
         if (error) {
           console.error(msg);
           return;
@@ -35,7 +35,7 @@ export default () => {
   );
 };
 
-function getUserDataHasError(res: CclReturnData<User>): {
+function validateGetUser(res: CclReturnData<User>): {
   error: boolean;
   msg?: string;
 } {
