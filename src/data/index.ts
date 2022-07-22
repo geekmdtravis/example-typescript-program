@@ -2,7 +2,7 @@ import labs from "./json/patientLabs.json";
 import patients from "./json/patientList.json";
 import user from "./json/userData.json";
 
-type Metadata = {
+export type Metadata = {
   CODE: number;
   MSG: string;
   DATE: string;
@@ -11,12 +11,12 @@ type Metadata = {
   PARAMETERS: string;
 };
 
-type CclReturnData<T> = {
+export type CclReturnData<T> = {
   META: Array<Metadata>;
   DATA: Array<T>;
 };
 
-type User = {
+export type User = {
   NAME: string;
   POSITION: string;
   PHYSICIAN: string;
@@ -49,14 +49,28 @@ type Patient = {
   NEW_TO_PANEL: number;
 };
 
-async function getPatientLabs(pid: number): Promise<CclReturnData<Lab>> {
+export async function getPatientLabs(pid: number): Promise<CclReturnData<Lab>> {
   throw new Error("Not implemented");
 }
 
-async function getPatients(uid: number): Promise<CclReturnData<Patient>> {
+export async function getPatients(
+  uid: number
+): Promise<CclReturnData<Patient>> {
   throw new Error("Not implemented");
 }
 
-async function getUserData(uid: number): Promise<CclReturnData<User>> {
-  throw new Error("Not implemented");
+/**
+ * Get user data for person.
+ * @param uid {number} - the user id to get user data for
+ * @returns a `Promise` of `CclReturnData<User>`
+ */
+export async function getUserData(uid: number): Promise<CclReturnData<User>> {
+  const returnData: CclReturnData<User> = user;
+
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      if (user) resolve(returnData);
+      else reject("user data was invalid or missing");
+    }, 100);
+  });
 }
