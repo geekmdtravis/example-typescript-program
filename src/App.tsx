@@ -10,9 +10,9 @@ export default () => {
     setLoading(true);
     getUserData(1)
       .then((res) => {
-        const rv = getUserDataHasError(res);
-        if (rv.error) {
-          console.error(rv.msg);
+        const { error, msg } = getUserDataHasError(res);
+        if (error) {
+          console.error(msg);
           return;
         }
         setUser(res.DATA[0]);
